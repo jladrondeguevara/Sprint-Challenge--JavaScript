@@ -123,7 +123,7 @@ const check = "Uni";
 graduates.forEach(element => {
   if(element.university.includes(check))
   {
-    unisWithUni.push(element.university);
+    unisWithUni.push(element);
   }
 } )
 console.log(unisWithUni);
