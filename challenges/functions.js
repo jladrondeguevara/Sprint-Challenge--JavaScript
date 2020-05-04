@@ -39,7 +39,7 @@ function greeting (first_name, last_name)
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: nestedFunction can access the variable internal because it is the variable is in the myFunction function, and the nestedFunction is a child of the myFunction. In essence, the variable internal is accessible to nestedFucntion because it is within the scope of the function.  
 
 
 const external = "I'm outside the function";
